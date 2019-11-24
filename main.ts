@@ -1,5 +1,5 @@
 let position: Position = null
-let positionTemp: Position = null
+let positionTemp: Position = null // un autre commentaire!
 let j = 0 //Une variable utilisée plus bas!
 player.onChat("run", function () {
     agent.teleport(positions.create(10, -5, -12), CompassDirection.South)
