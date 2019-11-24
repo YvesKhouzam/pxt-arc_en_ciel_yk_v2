@@ -1,0 +1,24 @@
+{
+    "name": "Arc_en_ciel_YK_v2",
+    "dependencies": {
+        "core": "*",
+        "builder": "*",
+        "minecraft-hoc2019": "github:microsoft/pxt-minecraft-hoc2019#v0.0.42"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "tsprj",
+    "targetVersions": {
+        "branch": "v1.2.25",
+        "tag": "v1.2.25",
+        "target": "1.2.25",
+        "pxt": "5.26.22"
+    },
+    "testFiles": [
+        "test.ts"
+    ]
+}
