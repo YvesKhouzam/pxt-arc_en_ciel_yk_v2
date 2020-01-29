@@ -4,11 +4,11 @@ let j = 0 //Une variable utilisée plus bas!
 player.onChat("run", function () {
     agent.teleport(positions.create(10, -5, -12), CompassDirection.South)
     position = agent.getPosition()
-    agent.setItem(Block.RedWool, 64, 1)
-    agent.setItem(Block.OrangeWool, 64, 2)
-    agent.setItem(Block.YellowWool, 64, 3)
-    agent.setItem(Block.LimeWool, 64, 4)
-    agent.setItem(Block.LightBlueWool, 64, 5)
+    agent.setItem(Block.RedWool, 10, 1)
+    agent.setItem(Block.OrangeWool, 10, 2)
+    agent.setItem(Block.YellowWool, 10, 3)
+    agent.setItem(Block.LimeWool, 10, 4)
+    agent.setItem(Block.LightBlueWool, 10, 5)
     agent.setItem(Block.BlueWool, 64, 6)
     agent.setItem(Block.PurpleWool, 64, 7)
     for (let i = 0; i <= 4; i++) {
